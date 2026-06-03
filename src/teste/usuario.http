@@ -9,10 +9,10 @@ POST http://localhost:3000/usuario/
 Content-Type: application/json
 
 {
- "nome": "bryan Lucas",
- "email" : "bryan@teste.com",
+ "nome": "Worley",
+ "email" : "worley@teste.com",
  "telefone":"22222222",
- "senha": "2234"
+ "senha": "12345"
 }
 
 ###
