@@ -1,0 +1,40 @@
+### Listar todos os Usuario
+GET http://localhost:3000/usuario
+Accept: application/json
+
+
+
+### Criar um Usuario
+POST http://localhost:3000/usuario/
+Content-Type: application/json
+
+{
+ "nome": "Worley",
+ "email" : "worley@teste.com",
+ "telefone":"22222222",
+ "senha": "12345"
+}
+
+###
+
+### Buscar Usuario por ID
+GET http://localhost:3000/usuario/
+Accept: application/json
+
+###
+
+### Atualizar Usuario
+PUT http://localhost:3000/usuario/5
+Content-Type: application/json
+
+{
+ "nome": "2222222",
+ "email" : "b222222",
+ "telefone":"22222222",
+ "senha": "222222"
+}
+
+###
+
+### Deletar Usuario
+DELETE http://localhost:3000/usuario/14
