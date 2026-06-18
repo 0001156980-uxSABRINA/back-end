@@ -5,7 +5,7 @@
 const express = require('express');
 const router = express.Router();
 
-const relatoriosController = require('../controllers/relatorios.controllers');
+const relatoriosController = require('../controllers/relatorios.controller');
 
 // ==========================================
 // ROTA RELATÓRIOS
